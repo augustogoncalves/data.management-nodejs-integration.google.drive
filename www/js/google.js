@@ -69,6 +69,7 @@ function prepareGoogleTree() {
     // types must be defined in order to work with custom menus
     'types': {
       'default': {},
+      'folder' : {},
       'vnd.google-apps.folder': {},
       'octet-stream':  {},
       'image/jpeg': {},
