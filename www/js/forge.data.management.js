@@ -88,8 +88,9 @@ function autodeskCustomMenu(autodeskNode) {
 }
 
 function sendToGDrive(autodeskNode, driveNode) {
-  if (driveNode == null || driveNode.icon.indexOf('application/vnd.google-apps.folder')==-1) {
+  if (driveNode == null || driveNode.icon.indexOf('vnd.google-apps.folder')==-1) {
     $.notify('Please select a folder on Google Drive Folders', 'error');
+    alert(driveNode.icon); // debug
     return;
   }
 
