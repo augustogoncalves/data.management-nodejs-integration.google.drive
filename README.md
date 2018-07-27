@@ -10,6 +10,12 @@
 [![OSS](https://img.shields.io/badge/OSS-v2-green.svg)](http://developer.autodesk.com/)
 [![Model-Derivative](https://img.shields.io/badge/Model%20Derivative-v2-green.svg)](http://developer.autodesk.com/)
 
+# DEPRECATED
+
+## This sample is deprecated
+
+Please visit the [newer version here](https://github.com/Autodesk-Forge/bim360appstore-data.management-nodejs-transfer.storage).
+
 # Description
 
 This sample show a simple integration [Data Management API](https://developer.autodesk.com/en/docs/data/v2/overview/) and [Google Drive](https://drive.google.com). The front-end will look like:

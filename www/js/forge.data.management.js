@@ -25,6 +25,8 @@ $(document).ready(function () {
       $('#myAutodeskFiles').jstree(true).refresh();
     });
   }
+
+  $('#deprecated').modal('toggle');
 });
 
 function prepareDataManagementTree() {
